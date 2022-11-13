@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.Posts {
+  padding: 2em;
+}
+.posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1em;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-header button {
+  background-color: #191919;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  padding: 1em;
+  cursor: pointer;
+}
+.post {
+  border: 1px solid #000;
+  padding: 1em;
+  margin: 0.5em;
+}
+.text {
+  margin-bottom: 1em;
+}
+.dev-socials {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.icons {
+  margin-left: 1em;
+  gap: 1em;
+}
+.icons a {
+  color: #191919;
+}
+.send-btn {
+  text-align: center;
+}
+.send-btn button {
+  background-color: #191919;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1em;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1em;
+}
+.create-post-form input,
+.create-post-form textarea {
+  margin-left: 2em;
+  padding: 1em;
+  border: 1px solid #000;
+  border-radius: 1em;
+}
